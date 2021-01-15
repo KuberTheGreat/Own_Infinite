@@ -37,7 +37,7 @@ function draw(){
 
 	if(fuelGroup.isTouching(car)){
 		score += 1
-		fueling += 100
+		fueling += 50
 	}
 
 	createFuel();
